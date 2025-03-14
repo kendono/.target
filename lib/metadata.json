@@ -1,0 +1,252 @@
+{
+  "vaultName": "repo",
+  "lastExport": 1741917411453,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "_ja/kanken/1_kyoiku/kyoiku_1/README.md",
+    "_ja/kanken/1_kyoiku/kyoiku_2/README.md",
+    "_ja/kanken/1_kyoiku/kyoiku_3/README.md",
+    "_ja/kanken/1_kyoiku/kyoiku_4/README.md",
+    "_ja/kanken/1_kyoiku/kyoiku_5/README.md",
+    "_ja/kanken/1_kyoiku/kyoiku_6/README.md",
+    "_ja/kanken/1_kyoiku/README.md",
+    "_ja/kanken/2_joyo/joyo_1/README.md",
+    "_ja/kanken/2_joyo/joyo_2/README.md",
+    "_ja/kanken/2_joyo/joyo_3/README.md",
+    "_ja/kanken/2_joyo/joyo_4/README.md",
+    "_ja/kanken/2_joyo/README.md",
+    "_ja/kanken/3_jis/jis_1/README.md",
+    "_ja/kanken/3_jis/jis_2/README.md",
+    "_ja/kanken/3_jis/README.md",
+    "_ja/kanken/README.md",
+    "_ja/README.md",
+    "README.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg"
+  ],
+  "fileInfo": {
+    "_ja/kanken/1_kyoiku/kyoiku_1/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 14118,
+      "exportedPath": "_ja/kanken/1_kyoiku/kyoiku_1/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/1_kyoiku/kyoiku_2/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 23997,
+      "exportedPath": "_ja/kanken/1_kyoiku/kyoiku_2/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/1_kyoiku/kyoiku_3/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 11,
+      "exportedPath": "_ja/kanken/1_kyoiku/kyoiku_3/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/1_kyoiku/kyoiku_4/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 11,
+      "exportedPath": "_ja/kanken/1_kyoiku/kyoiku_4/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/1_kyoiku/kyoiku_5/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 11,
+      "exportedPath": "_ja/kanken/1_kyoiku/kyoiku_5/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/1_kyoiku/kyoiku_6/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 11,
+      "exportedPath": "_ja/kanken/1_kyoiku/kyoiku_6/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/1_kyoiku/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 300,
+      "exportedPath": "_ja/kanken/1_kyoiku/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/2_joyo/joyo_1/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 12,
+      "exportedPath": "_ja/kanken/2_joyo/joyo_1/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/2_joyo/joyo_2/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 11,
+      "exportedPath": "_ja/kanken/2_joyo/joyo_2/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/2_joyo/joyo_3/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 13,
+      "exportedPath": "_ja/kanken/2_joyo/joyo_3/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/2_joyo/joyo_4/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 11,
+      "exportedPath": "_ja/kanken/2_joyo/joyo_4/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/2_joyo/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 188,
+      "exportedPath": "_ja/kanken/2_joyo/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/3_jis/jis_1/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 14,
+      "exportedPath": "_ja/kanken/3_jis/jis_1/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/3_jis/jis_2/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 12,
+      "exportedPath": "_ja/kanken/3_jis/jis_2/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/3_jis/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 98,
+      "exportedPath": "_ja/kanken/3_jis/README.html",
+      "dependencies": []
+    },
+    "_ja/kanken/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 149,
+      "exportedPath": "_ja/kanken/README.html",
+      "dependencies": []
+    },
+    "_ja/README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 61,
+      "exportedPath": "_ja/README.html",
+      "dependencies": []
+    },
+    "README.md": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 384,
+      "exportedPath": "README.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1741917411453,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    }
+  }
+}
