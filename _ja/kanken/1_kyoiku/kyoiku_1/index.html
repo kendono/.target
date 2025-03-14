@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>README</title>
+  <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">README</h1>
+</header>
+<h1 id="kanken-10">Kanken 10</h1>
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 14%" />
+<col style="width: 12%" />
+<col style="width: 15%" />
+<col style="width: 17%" />
+<col style="width: 16%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Glyph</th>
+<th style="text-align: center;">On</th>
+<th style="text-align: center;">Kun<br>(Alone)</th>
+<th style="text-align: center;">Kun<br>(Base)</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">一</td>
+<td style="text-align: center;">イチ<br>イツ</td>
+<td style="text-align: center;">ひと</td>
+<td style="text-align: center;">ひと-</td>
+<td>ひと-つ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">右</td>
+<td style="text-align: center;">ウ<br>ユウ</td>
+<td style="text-align: center;">みぎ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">雨</td>
+<td style="text-align: center;">ウ</td>
+<td style="text-align: center;">あめ<br>(あま)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">円</td>
+<td style="text-align: center;">エン</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">まる-</td>
+<td>まる-い</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">王</td>
+<td style="text-align: center;">オウ</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">音</td>
+<td style="text-align: center;">オン<br>イン</td>
+<td style="text-align: center;">おと<br>ね</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">下</td>
+<td style="text-align: center;">カ<br>ゲ</td>
+<td style="text-align: center;">した<br>しも<br>もと</td>
+<td style="text-align: center;">さ-<br>くだ-<br>お-</td>
+<td>さ-げる<br>さ-がる</td>
+<td>くだ-る<br>くだ-す<br>くだ-さる</td>
+<td>お-ろす<br>お-りる</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">火</td>
+<td style="text-align: center;">カ</td>
+<td style="text-align: center;">ひ<br>(ほ)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">花</td>
+<td style="text-align: center;">カ</td>
+<td style="text-align: center;">はな</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">貝</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">かい</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">学</td>
+<td style="text-align: center;">ガク</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">まな-</td>
+<td>まな-ぶ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">気</td>
+<td style="text-align: center;">キ<br>ケ</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">九</td>
+<td style="text-align: center;">キュウ<br>ク</td>
+<td style="text-align: center;">ここの</td>
+<td style="text-align: center;">ここの-</td>
+<td>ここの-つ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">休</td>
+<td style="text-align: center;">キュウ</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">やす-</td>
+<td>やす-む<br>やす-まる<br>やす-める</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">玉</td>
+<td style="text-align: center;">ギョク</td>
+<td style="text-align: center;">たま</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">金</td>
+<td style="text-align: center;">キン<br>コン</td>
+<td style="text-align: center;">かね<br>(かな)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">空</td>
+<td style="text-align: center;">クウ</td>
+<td style="text-align: center;">そら<br>から</td>
+<td style="text-align: center;">あ-</td>
+<td>あ-く<br>あ-ける</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">月</td>
+<td style="text-align: center;">ゲツ<br>ガツ</td>
+<td style="text-align: center;">つき</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">犬</td>
+<td style="text-align: center;">ケン</td>
+<td style="text-align: center;">いぬ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">見</td>
+<td style="text-align: center;">ケン</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">み-</td>
+<td>み-る<br>み-える<br>み-せる</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">五</td>
+<td style="text-align: center;">ゴ</td>
+<td style="text-align: center;">いつ</td>
+<td style="text-align: center;">いつ-</td>
+<td>いつ-つ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">口</td>
+<td style="text-align: center;">コウ<br>ク</td>
+<td style="text-align: center;">くち</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">校</td>
+<td style="text-align: center;">コウ</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">左</td>
+<td style="text-align: center;">サ</td>
+<td style="text-align: center;">ひだり</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">三</td>
+<td style="text-align: center;">サン</td>
+<td style="text-align: center;">み</td>
+<td style="text-align: center;">み-<br>みっ-</td>
+<td>み-つ</td>
+<td>みっ-つ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">山</td>
+<td style="text-align: center;">サン</td>
+<td style="text-align: center;">やま</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">子</td>
+<td style="text-align: center;">シ<br>ス</td>
+<td style="text-align: center;">こ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">四</td>
+<td style="text-align: center;">シ</td>
+<td style="text-align: center;">よ<br>よん</td>
+<td style="text-align: center;">よ-<br>よっ-</td>
+<td>よ-つ</td>
+<td>よっ-つ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">糸</td>
+<td style="text-align: center;">シ</td>
+<td style="text-align: center;">いと</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">字</td>
+<td style="text-align: center;">ジ</td>
+<td style="text-align: center;">あざ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">耳</td>
+<td style="text-align: center;">ジ</td>
+<td style="text-align: center;">みみ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">七</td>
+<td style="text-align: center;">シチ</td>
+<td style="text-align: center;">なな<br>(なの)</td>
+<td style="text-align: center;">なな-</td>
+<td>なな-つ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">車</td>
+<td style="text-align: center;">シャ</td>
+<td style="text-align: center;">くるま</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">手</td>
+<td style="text-align: center;">シュ</td>
+<td style="text-align: center;">て<br>(た)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">十</td>
+<td style="text-align: center;">ジュウ<br>ジッ</td>
+<td style="text-align: center;">とお<br>と</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">出</td>
+<td style="text-align: center;">シュツ<br>(スイ)</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">で-<br>だ-</td>
+<td>で-る</td>
+<td>だ-す</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">女</td>
+<td style="text-align: center;">ジョ<br>ニョ<br>(ニョウ)</td>
+<td style="text-align: center;">おんな<br>め</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">小</td>
+<td style="text-align: center;">ショウ</td>
+<td style="text-align: center;">こ<br>お</td>
+<td style="text-align: center;">ちい-</td>
+<td>ちい-さい</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">上</td>
+<td style="text-align: center;">ジョウ<br>(ショウ)</td>
+<td style="text-align: center;">うえ<br>(うわ)<br>かみ</td>
+<td style="text-align: center;">あ-<br>のぼ-</td>
+<td>あ-げる<br>あ-がる</td>
+<td>のぼ-る<br>のぼ-せる<br>のぼ-す</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">森</td>
+<td style="text-align: center;">シン</td>
+<td style="text-align: center;">もり</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">人</td>
+<td style="text-align: center;">ジン<br>ニン</td>
+<td style="text-align: center;">ひと</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">水</td>
+<td style="text-align: center;">スイ</td>
+<td style="text-align: center;">みず</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">正</td>
+<td style="text-align: center;">セイ<br>ショウ</td>
+<td style="text-align: center;">まさ</td>
+<td style="text-align: center;">ただ-</td>
+<td>ただ-しい<br>ただ-す</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">生</td>
+<td style="text-align: center;">セイ<br>ショウ</td>
+<td style="text-align: center;">き<br>なま</td>
+<td style="text-align: center;">い-<br>う-<br>お-<br>は-</td>
+<td>い-きる<br>い-かす<br>い-ける</td>
+<td>う-まれる<br>う-む</td>
+<td>お-う</td>
+<td>は-える<br>は-やす</td>
+</tr>
+<tr>
+<td style="text-align: center;">青</td>
+<td style="text-align: center;">セイ<br>(ショウ)</td>
+<td style="text-align: center;">あお</td>
+<td style="text-align: center;">あお-</td>
+<td>あお-い</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">夕</td>
+<td style="text-align: center;">セキ</td>
+<td style="text-align: center;">ゆう</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">石</td>
+<td style="text-align: center;">セキ<br>(シャク)<br>(コク)</td>
+<td style="text-align: center;">いし</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">赤</td>
+<td style="text-align: center;">セキ<br>(シャク)</td>
+<td style="text-align: center;">あか</td>
+<td style="text-align: center;">あか-</td>
+<td>あか-い<br>あか-らむ<br>あか-らめる</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">千</td>
+<td style="text-align: center;">セン</td>
+<td style="text-align: center;">ち</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">川</td>
+<td style="text-align: center;">セン</td>
+<td style="text-align: center;">かわ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">先</td>
+<td style="text-align: center;">セン</td>
+<td style="text-align: center;">さき</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">早</td>
+<td style="text-align: center;">ソウ<br>(サッ)</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">はや-</td>
+<td>はや-い<br>はや-まる<br>はや-める</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">草</td>
+<td style="text-align: center;">ソウ</td>
+<td style="text-align: center;">くさ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">足</td>
+<td style="text-align: center;">ソク</td>
+<td style="text-align: center;">あし</td>
+<td style="text-align: center;">た-</td>
+<td>た-りる<br>た-る<br>た-す</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">村</td>
+<td style="text-align: center;">ソン</td>
+<td style="text-align: center;">むら</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">大</td>
+<td style="text-align: center;">ダイ<br>タイ</td>
+<td style="text-align: center;">おお</td>
+<td style="text-align: center;">おお-</td>
+<td>おお-きい<br>おお-いに</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">男</td>
+<td style="text-align: center;">ダン<br>ナン</td>
+<td style="text-align: center;">おとこ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">竹</td>
+<td style="text-align: center;">チク</td>
+<td style="text-align: center;">たけ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">中</td>
+<td style="text-align: center;">チュウ<br>(ジュウ)</td>
+<td style="text-align: center;">なか</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">虫</td>
+<td style="text-align: center;">チュウ</td>
+<td style="text-align: center;">むし</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">町</td>
+<td style="text-align: center;">チョウ</td>
+<td style="text-align: center;">まち</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">天</td>
+<td style="text-align: center;">テン</td>
+<td style="text-align: center;">あめ<br>(あま)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">田</td>
+<td style="text-align: center;">デン</td>
+<td style="text-align: center;">た</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">土</td>
+<td style="text-align: center;">ド<br>ト</td>
+<td style="text-align: center;">つち</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">二</td>
+<td style="text-align: center;">ニ</td>
+<td style="text-align: center;">ふた</td>
+<td style="text-align: center;">ふた-</td>
+<td>ふた-つ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">日</td>
+<td style="text-align: center;">ニチ<br>ジツ</td>
+<td style="text-align: center;">ひ<br>か</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">入</td>
+<td style="text-align: center;">ニュウ</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">い-<br>はい-</td>
+<td>い-る<br>い-れる</td>
+<td>はい-る</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">年</td>
+<td style="text-align: center;">ネン</td>
+<td style="text-align: center;">とし</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">白</td>
+<td style="text-align: center;">ハク<br>ビャク</td>
+<td style="text-align: center;">しろ<br>(しら)</td>
+<td style="text-align: center;">しろ-</td>
+<td>しろ-い</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">八</td>
+<td style="text-align: center;">ハチ</td>
+<td style="text-align: center;">や<br>(よう)</td>
+<td style="text-align: center;">や-<br>やっ-</td>
+<td>や-つ</td>
+<td>やっ-つ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">百</td>
+<td style="text-align: center;">ヒャク</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">文</td>
+<td style="text-align: center;">ブン<br>モン</td>
+<td style="text-align: center;">ふみ</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">木</td>
+<td style="text-align: center;">ボク<br>モク</td>
+<td style="text-align: center;">き<br>(こ)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">本</td>
+<td style="text-align: center;">ホン</td>
+<td style="text-align: center;">もと</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">名</td>
+<td style="text-align: center;">メイ<br>ミョウ</td>
+<td style="text-align: center;">な</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">目</td>
+<td style="text-align: center;">モク<br>(ボク)</td>
+<td style="text-align: center;">め<br>(ま)</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">立</td>
+<td style="text-align: center;">リツ<br>(リュウ)</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">た-</td>
+<td>た-つ<br>た-てる</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">力</td>
+<td style="text-align: center;">リョク<br>リキ</td>
+<td style="text-align: center;">ちから</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">林</td>
+<td style="text-align: center;">リン</td>
+<td style="text-align: center;">はやし</td>
+<td style="text-align: center;">-</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;">六</td>
+<td style="text-align: center;">ロク</td>
+<td style="text-align: center;">む<br>(むい)</td>
+<td style="text-align: center;">む-<br>むっ-</td>
+<td>む-つ</td>
+<td>むっ-つ</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
